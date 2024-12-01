@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Startify**
 
-## Getting Started
+Startify es una **webapp enfocada en dispositivos móviles** diseñada para ayudar a los emprendedores a administrar sus negocios de manera eficiente. Con Startify, los usuarios pueden llevar un registro detallado de sus ventas, gestionar su inventario, y analizar el rendimiento de su negocio a través de gráficos y estadísticas.
 
-First, run the development server:
+## **Características principales**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Historial de ventas**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   - Visualiza todas las transacciones realizadas, ordenadas de más reciente a más antigua.
+   - Acceso rápido a los detalles de cada venta.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Gestión de inventario**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   - Agrega nuevos productos o servicios a tu inventario.
+   - Visualiza los productos existentes con la opción de filtrarlos por categorías.
+   - Organiza tu inventario de manera eficiente para encontrar productos fácilmente.
 
-## Learn More
+3. **Registro de transacciones**:
 
-To learn more about Next.js, take a look at the following resources:
+   - Botón destacado y accesible para agregar nuevas transacciones.
+   - Elige entre:
+     - **Venta**: Selecciona un producto, recupera automáticamente el precio de venta registrado previamente (con opción de modificarlo), y registra la cantidad vendida.
+     - **Ingreso de productos**: Registra el costo de adquisición y la cantidad de productos añadidos al inventario.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Gráficos y estadísticas**:
+   - Analiza el rendimiento de tu negocio con gráficos claros y fáciles de entender.
+   - Obtén estadísticas sobre tus ventas, ingresos y productos más vendidos.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## **Tecnologías utilizadas**
 
-## Deploy on Vercel
+- **Frontend**: Diseñado para ser responsivo y optimizado para dispositivos móviles.
+- **Backend**: Manejo eficiente de datos para garantizar un rendimiento rápido y confiable.
+- **Base de datos**: Almacena de manera segura el inventario, las transacciones y los datos estadísticos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **Cómo empezar**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Requisitos previos**:
+
+   - Navegador web moderno (Google Chrome, Safari, Firefox, etc.).
+   - Conexión a internet.
+
+2. **Instalación**:
+
+   - No es necesario instalar nada. Simplemente accede a la webapp desde tu navegador.
+
+3. **Uso**:
+   - Regístrate o inicia sesión para comenzar a usar Startify.
+   - Configura tu inventario inicial y empieza a registrar tus transacciones.
+
+## **Estructura de la aplicación**
+
+- **Pestaña de historial de ventas**: Consulta todas las ventas realizadas.
+- **Pestaña de inventario**: Agrega, edita y organiza tus productos o servicios.
+- **Pestaña de transacciones**: Registra ventas o ingresos de productos de manera rápida y sencilla.
+- **Pestaña de estadísticas**: Visualiza gráficos y datos clave sobre el rendimiento de tu negocio.
+
+## **Futuras mejoras**
+
+- Integración con sistemas de pago en línea.
+- Notificaciones automáticas para reabastecimiento de inventario.
+- Exportación de datos en formatos como Excel o PDF.
+- Personalización de categorías y reportes.
+
+## **Contribuciones**
+
+Si deseas contribuir al desarrollo de Startify, por favor envía un pull request o abre un issue en el repositorio.
